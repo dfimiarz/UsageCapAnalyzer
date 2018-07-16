@@ -1,0 +1,2 @@
+class RateSchedule:
+    pass

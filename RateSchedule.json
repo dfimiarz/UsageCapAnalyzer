@@ -1,0 +1,21 @@
+{
+    "schedule": [
+            { "rid": "OFF-PEAK", "day": 0, "start": 0, "duration": 8 },
+            { "rid": "PEAK", "day": 0, "start": 8, "duration": 10 },
+            { "rid": "OFF-PEAK", "day": 0, "start": 18, "duration": 6 },
+            { "rid": "OFF-PEAK", "day": 1, "start": 0, "duration": 8 },
+            { "rid": "PEAK", "day": 1, "start": 8, "duration": 10 },
+            { "rid": "OFF-PEAK", "day": 1, "start": 18, "duration": 6 },
+            { "rid": "OFF-PEAK", "day": 2, "start": 0, "duration": 8 },
+            { "rid": "PEAK", "day": 2, "start": 8, "duration": 10 },
+            { "rid": "OFF-PEAK", "day": 2, "start": 18, "duration": 6 },
+            { "rid": "OFF-PEAK", "day": 3, "start": 0, "duration": 8 },
+            { "rid": "PEAK", "day": 3, "start": 8, "duration": 10 },
+            { "rid": "OFF-PEAK", "day": 3, "start": 18, "duration": 6 },
+            { "rid": "OFF-PEAK", "day": 4, "start": 0, "duration": 8 },
+            { "rid": "PEAK", "day": 4, "start": 8, "duration": 10 },
+            { "rid": "OFF-PEAK", "day": 4, "start": 18, "duration": 6 },
+            { "rid": "OFF-PEAK", "day": 5, "start": 0, "duration": 24 },
+            { "rid": "OFF-PEAK", "day": 6, "start": 0, "duration": 24 }
+        ]
+}
