@@ -8,12 +8,12 @@ class RateScheduleReader:
         
         rateschedules = []
 
-        print os.path.abspath(filepath)
+        fullPath = os.path.abspath(filepath)
 
-        if os.path.isfile( filepath ) == False:
-            return rateschedules;
+        print( "Reading Rate Schedule from: '%s ...' " % fullPath) 
 
-        # print( "%s is file" % filepath)
+        if os.path.isfile( fullPath ) == False:
+            return rateschedules
 
         with open(filepath, 'r') as file:
             datastore = json.load(file)
@@ -23,5 +23,5 @@ class RateScheduleReader:
             rid = rateschedule['rid'].encode('utf8')
             rateschedules.append(RateTimeSpan(rid,start,rateschedule["duration"] * RateTimeSpan.DUR_ONE_HOUR))
 
-        return rateschedules;
+        return rateschedules
             
