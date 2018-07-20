@@ -33,7 +33,7 @@ def findFirstRateTimeSpan(ratewindows, session):
 def analyze_usage():
     """Run the application"""
     print("UsageCapAnalyzer")
-    rateSchedules = RateScheduleReader.loadRateSchedule('.\RateSchedule.json')
+    rateSchedules = RateScheduleReader.loadRateSchedule('.\\RateSchedule.json')
     print rateSchedules
     s = Session(datetime(2018,7,15,23,59),datetime(2018,7,19,11)  )
     print s.start
